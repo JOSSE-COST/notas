@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    font-family: "Bebas Neue", sans-serif;
+    align-items: center;
+    background-color: rgb(187, 182, 175);
+    height: 200vh;
+    color: rgb(74, 31, 31);
+    
+}
+
+button {
+    width: 80px;
+    height: 40px;
+    margin: 5px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: rgb(89, 23, 94);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Bebas Neue", sans-serif;
+    box-shadow: 0 0 5px rgb(0, 0, 0) ;
+
+
+}
+
+button:hover {
+    background-color: #000000;
+}
+
+.botonera {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
